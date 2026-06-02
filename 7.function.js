@@ -112,6 +112,7 @@ let x = 40;
 const multiply = (a, b) => a * b;
 
 // console.log(multiply(12, 5)); //
+// let res = multiply(12, 6);
 
 const fn = (obj) => obj.name;
 
@@ -147,7 +148,18 @@ const outer = () => {
   console.log("outer");
   const inner = () => {
     console.log("inner");
+    return 10;
   };
   // inner()
   return inner;
-};
+}; //
+
+const y = outer();
+y();
+console.log(y);
+
+//! IIFE
+
+(() => {
+  console.log("IIFE");
+})();
