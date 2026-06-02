@@ -95,10 +95,59 @@ function add(a = 0, b = 0) {
 
 //* function expression
 let x = 40;
-const multiply = function (a = 1, b = 1) {
-  return a * b;
-};
+// const multiply = function (a = 1, b = 1) {
+//   return a * b;
+// };
 
-console.log(multiply(12, 4));
+// console.log(multiply(12, 4));
 
 //todo: arrow function, callback function , hof
+
+//! arrow function
+// const multiply = (a, b) => {
+//   let res = a * b;
+//   return res;
+// };
+
+const multiply = (a, b) => a * b;
+
+// console.log(multiply(12, 5)); //
+
+const fn = (obj) => obj.name;
+
+// console.log(fn({ name: "John" })); //
+
+//* callback function
+
+const parent = (callback) => {
+  console.log(callback);
+  console.log("parent");
+  callback(12); //
+};
+
+const child = (a) => {
+  console.log("child", a);
+  // console.log(a); //
+};
+
+parent(child); //
+parent((a) => {
+  console.log("child 1", a);
+  // console.log(a); //
+}); //
+// parent(()=>{})
+
+// calculate(a,b,operation)
+
+// calculate(12, 23, add);
+
+//! higher order function
+
+const outer = () => {
+  console.log("outer");
+  const inner = () => {
+    console.log("inner");
+  };
+  // inner()
+  return inner;
+};
