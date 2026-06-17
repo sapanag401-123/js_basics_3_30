@@ -26,6 +26,31 @@
 //git push origin main
 ./-vitra jana-samefolder
 
+//branch command
+// git granch
+// git branch <branch_name>
+// git switch <branch_name>
+// git switch -c <branch_name>
+// git merge <branch_name>
+//git commit -m "merge con"
+
+//rebase
+//rebase is not used in the team
+//git rebase
+//main: 
+//
+
+//cherry-pick <commit_hash>
+//how do it work
+
+
+//pr-> pull request/mr -rangeclear
+//main production branch
+//develop integration branch(suru ma yasma merge garxa)
+//hotfix  emergency bug fix //hotfix/login
+//feature - feature/login
+
+
 //remote repo
 // git remote -v ->list remote repo
 //git remote add origin <remote_repo_url>
@@ -34,3 +59,7 @@
 // git commit -m "Updated operators example"
 //new file change from main
 //git merge mew_branch
+
+//git stash- same time ma branch create pani garna ani ta pani jana
+//git stash list
+//git stash pop
