@@ -26,6 +26,14 @@
 //git push origin main
 ./-vitra jana-samefolder
 
+//branch command
+// git granch
+// git branch <branch_name>
+// git switch <branch_name>
+// git switch -c <branch_name>
+// git merge <branch_name>
+
+
 //remote repo
 // git remote -v ->list remote repo
 //git remote add origin <remote_repo_url>
@@ -34,3 +42,8 @@
 // git commit -m "Updated operators example"
 //new file change from main
 //git merge mew_branch
+
+//git stash- same time ma branch create pani garna ani ta pani jana
+//git stash list
+//git stash pop
+// q
