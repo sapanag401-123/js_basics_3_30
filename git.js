@@ -29,3 +29,8 @@
 //remote repo
 // git remote -v ->list remote repo
 //git remote add origin <remote_repo_url>
+// git status
+// git add .
+// git commit -m "Updated operators example"
+//new file change from main
+//git merge mew_branch
